@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxContainer{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgb(209, 206, 206);
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    padding: 15px;
+    font-size: 20px;
+}
+
+@media (max-width:300px){
+    .box{
+        display: block;
+    }
+}
+@media (min-width:300px){
+    #box2{
+        display: block;
+    }
+}
+
